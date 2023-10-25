@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3c87ff;
+}
+
+.wrapper{
+    width: 800px;
+    background-color: #ffff;
+    margin: 135px auto;
+    border-radius: 10px;
+    padding: 28px 0;
+}
+
+.task-input{
+    height: 52px;
+    width: 95%;
+    padding: 0 25px;
+    display: flex;
+    position: relative;
+}
+
+.task-input button {
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 4px;
+    margin: 0 -30px 0 10px;
+    padding: 7px 27px;
+    background-color: #3c87ff;
+}
+
+.task-input button:hover{
+    background-color: #0062ff;
+
+}
+
+.task-input i{
+    position: absolute;
+    top: 50%;
+    transform: translate(17px, -50%);
+}
+
+.task-input input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0 20px 0 53px;
+}
+
+.task-input input::placeholder{
+    color: #bfbfbf;
+}
+
+#alert{
+    margin-left: 25px;
+    color: red;
+    margin-top: 10px;
+}
+
+.controls{
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+}
+
+.controls label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.controls .filter input{
+    padding: 0.5rem;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #999;   
+}
+
+.controls .filter select{
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 15px;
+} 
+
+.search-select option{
+    background-color: white;
+    background-color: white;
+        padding: 10px 10px;
+        margin: 12px 15xp;
+        display: flex;
+        text-align: left;
+        border: none;
+        font-size: 17px;
+        cursor: all-scroll;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+}
+
+.t2{
+    margin-left: 15px;
+}
+
+.controls .clear-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 4px;
+    padding: 7px 13px;
+    background-color: #3c87ff;
+}
+
+.clear-btn:hover{
+    background-color: #0062ff;
+}
+
+.task-box{
+    margin: 20px 25px;
+    /* display: block; */
+}
+
+.task-box .task{
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 18px ;
+    margin-left: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.setting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.setting i:first-child{
+    color: #3c87ff;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task label{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.task label p{
+    margin-left: 5px;
+}
+
+.task label p.checked{
+    text-decoration: line-through;
+}
+
+.task label input{
+    margin-top: 6px;
+     margin-right: 12px;
+}
+
+li .task .setting li:first-child{
+    margin-right: 50px;
+}
+
+
+
